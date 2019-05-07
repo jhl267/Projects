@@ -5,8 +5,7 @@ The goal of this project was to use natural language processing to analyze hip h
 
 The main steps were:
 
-Webscrap all lyrics from Biggie and Tupac's Albums, including posthumous albums
-Train a model being able to predict and create data for Flask app to use
-Link Spotiy's API to try out the model on any song in their library
-Each of the links above is a Jupyter Notebook file with Python code to complete each step.
-
+Webscrapped all lyrics from Biggie and Tupac's Albums, including posthumous albums, into dataframe
+Cleaned the lyrics, added stopwords, removed intercludes and repeat choruses
+Created model and looked at lyrical trends over time for both artists
+Used topic modeling (non-negative matrix factorization) to examine common themes amongst America's two biggest rappers
